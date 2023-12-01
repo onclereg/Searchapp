@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function SearchBar({onSubmit}){
-    const[term,setTerm] = useState('foods');
+    const[term,setTerm] = useState('');
     
     const handleFormSubmit=(event)=>{
         event.preventDefault();
